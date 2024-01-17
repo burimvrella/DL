@@ -1,0 +1,356 @@
+[
+  {
+    "author": "Jeremias",
+    "title": "Advancements in Quantum Computing: Harnessing the Power of Superposition and Entanglement",
+    "coAuthor": [
+      "Burim",
+      "Raphael",
+      "Alex",
+      "Anna",
+      "William K. Taylor",
+      "Sophia L. Martinez"
+    ],
+    "citeCount": 100,
+    "references": {
+      "Quantum Entanglement in Biological Systems: Exploring Non-local Correlations in Cellular Communication": [
+        "William K. Taylor",
+        "Sophia L. Martinez",
+        "John A. Smith",
+        "Emily R. Johnson"
+      ],
+      "Integrating Blockchain Technology with Internet of Things (IoT): A Secure and Decentralized Approach for Smart Cities": [
+        "William K. Taylor",
+        "Sophia L. Martinez",
+        "John A. Smith",
+        "Emily R. Johnson"
+      ]
+    },
+    "doi": "https://www.doi.org/",
+    "publishedArticle": 80
+  },
+  {
+    "author": "Raphael",
+    "title": "Ethical Considerations in Artificial Intelligence: Navigating the Complex Landscape of Autonomous Systems",
+    "coAuthor": [
+      "Burim",
+      "Alex"
+    ],
+    "citeCount": 105,
+    "references": {
+      "Metamaterials for Electromagnetic Invisibility Cloaks: Design, Fabrication, and Applications": [
+        "William K. Taylor",
+        "Sophia L. Martinez",
+        "John A. Smith",
+        "Emily R. Johnson"
+      ],
+      "Ecological Resilience in Fragmented Landscapes: Assessing the Impact of Connectivity on Biodiversity Conservation": [
+        "William K. Taylor",
+        "Sophia L. Martinez",
+        "John A. Smith",
+        "Emily R. Johnson"
+      ]
+    },
+    "doi": "https://www.doi.org/",
+    "publishedArticle": 25
+  },
+  {
+    "author": "Alex",
+    "title": "Green Energy Revolution: Innovations in Sustainable Power Generation and Storage",
+    "coAuthor": [
+      "Raphael",
+      "Thomas",
+      "Jeremias"
+    ],
+    "citeCount": 800,
+    "references": {
+      "From Single Atoms to Quantum Networks: Progress in Quantum Information Processing": [
+        "William K. Taylor",
+        "Sophia L. Martinez",
+        "John A. Smith",
+        "Emily R. Johnson"
+      ]
+    },
+    "doi": "https://www.doi.org/",
+    "publishedArticle": 10
+  },
+  {
+    "author": "Burim",
+    "title": "Exploring the Role of Microbiota in Human Health: From Gut to Brain Connections",
+    "coAuthor": [
+      "Jeremias",
+      "Thomas",
+      "Martin"
+    ],
+    "citeCount": 200,
+    "references": {
+      "The Role of Microbiota in Neurological Disorders: Gut-Brain Axis and Therapeutic Implications": [
+        "William K. Taylor",
+        "Sophia L. Martinez",
+        "John A. Smith",
+        "Emily R. Johnson"
+      ]
+    },
+    "doi": "https://www.doi.org/",
+    "publishedArticle": 50
+  },
+  {
+    "author": "Anna",
+    "title": "Resilience in the Face of Cybersecurity Threats: Strategies for Robust Digital Infrastructure",
+    "coAuthor": [
+      "Erwin"
+    ],
+    "citeCount": 300,
+    "references": {
+      "Emerging Trends in Renewable Energy Storage: Materials, Devices, and Systems": [
+        "William K. Taylor",
+        "Sophia L. Martinez",
+        "John A. Smith",
+        "Emily R. Johnson"
+      ]
+    },
+    "doi": "https://www.doi.org/",
+    "publishedArticle": 25
+  },
+  {
+    "author": "Thomas",
+    "title": "Augmented Reality Applications in Education: Enhancing Learning Experiences in the Digital Age",
+    "coAuthor": [
+      "Erwin"
+    ],
+    "citeCount": 20,
+    "references": {
+      "Quantum Computing Algorithms for Optimization Problems: A Comparative Study": [
+        "William K. Taylor",
+        "Sophia L. Martinez",
+        "John A. Smith",
+        "Emily R. Johnson"
+      ]
+    },
+    "doi": "https://www.doi.org/",
+    "publishedArticle": 35
+  },
+  {
+    "author": "Martin",
+    "title": "Towards a Holistic Approach to Mental Health: Integrating Traditional and Modern Therapies",
+    "coAuthor": [
+      "Anna"
+    ],
+    "citeCount": 205,
+    "references": {
+      "Applications of Artificial Intelligence in Drug Discovery: Opportunities and Challenges": [
+        "William K. Taylor",
+        "Sophia L. Martinez",
+        "John A. Smith",
+        "Emily R. Johnson"
+      ]
+    },
+    "doi": "https://www.doi.org/",
+    "publishedArticle": 85
+  },
+  {
+    "author": "Erwin",
+    "title": "The Future of Space Exploration: Technologies and Challenges Beyond Earth's Atmosphere",
+    "coAuthor": [
+      "Alijosha",
+      "Thomas"
+    ],
+    "citeCount": 270,
+    "references": {
+      "Advancements in Brain-Computer Interface Technologies: From Neural Signal Recording to Cognitive Enhancement": [
+        "William K. Taylor",
+        "Sophia L. Martinez",
+        "John A. Smith",
+        "Emily R. Johnson"
+      ]
+    },
+    "doi": "https://www.doi.org/",
+    "publishedArticle": 15
+  },
+  {
+    "author": "Alijosha",
+    "title": "Bridging the Digital Divide: Strategies for Inclusive Technology Access and Adoption",
+    "coAuthor": [
+      "Burim",
+      "Raphael",
+      "Alex",
+      "Martin",
+      "Anna"
+    ],
+    "citeCount": 100,
+    "references": {
+      "Biomechanics of Human Flight: Understanding the Physics Behind Bird and Insect Aerial Locomotion": [
+        "William K. Taylor",
+        "Sophia L. Martinez",
+        "John A. Smith",
+        "Emily R. Johnson"
+      ]
+    },
+    "doi": "https://www.doi.org/",
+    "publishedArticle": 95
+  },
+  {
+    "author": "Mathias",
+    "title": "Genomic Medicine: Unraveling the Mysteries of Personalized Healthcare",
+    "coAuthor": [
+      "Erwin",
+      "Anna"
+    ],
+    "citeCount": 20,
+    "references": {
+      "Genome Editing in Plants: CRISPR/Cas9 Applications for Crop Improvement": [
+        "William K. Taylor",
+        "Sophia L. Martinez",
+        "John A. Smith",
+        "Emily R. Johnson"
+      ]
+    },
+    "doi": "https://www.doi.org/",
+    "publishedArticle": 75
+  },
+  {
+    "author": "Nora",
+    "title": "Blockchain and Decentralized Finance: Transforming the Landscape of Traditional Banking",
+    "coAuthor": [
+      "Tizi"
+    ],
+    "citeCount": 20,
+    "references": {
+      "Unraveling the Mysteries of Dark Matter: Observational Evidence and Theoretical Perspectives": [
+        "William K. Taylor",
+        "Sophia L. Martinez",
+        "John A. Smith",
+        "Emily R. Johnson"
+      ]
+    },
+    "doi": "https://www.doi.org/",
+    "publishedArticle": 55
+  },
+  {
+    "author": "Tizi",
+    "title": "Human-Computer Interaction in Virtual Reality: Designing Immersive and User-Centric Experiences",
+    "coAuthor": [
+      "Nora"
+    ],
+    "citeCount": 200,
+    "references": {
+      "Nanoparticle-Mediated Drug Delivery for Targeted Cancer Therapy: A Comprehensive Review": [
+        "William K. Taylor",
+        "Sophia L. Martinez",
+        "John A. Smith",
+        "Emily R. Johnson"
+      ]
+    },
+    "doi": "https://www.doi.org/",
+    "publishedArticle": 65
+  },
+  {
+    "author": "Traum",
+    "title": "Advances in Materials Science: From Nanotechnology to Bio-inspired Materials",
+    "coAuthor": [
+      "Tizi",
+      "Alex"
+    ],
+    "citeCount": 335,
+    "references": {
+      "Towards Autonomous Swarm Robotics: Decentralized Control Strategies and Collective Behavior": [
+        "William K. Taylor",
+        "Sophia L. Martinez",
+        "John A. Smith",
+        "Emily R. Johnson"
+      ]
+    },
+    "doi": "https://www.doi.org/",
+    "publishedArticle": 45
+  },
+  {
+    "author": "Traum",
+    "title": "The Intersection of Art and Technology: Exploring Creative Possibilities in the Digital Era",
+    "coAuthor": [
+      "Jeremias",
+      "Alex"
+    ],
+    "citeCount": 852,
+    "references": {
+      "The Impact of Climate Change on Microbial Diversity in Polar Environments": [
+        "William K. Taylor",
+        "Sophia L. Martinez",
+        "John A. Smith",
+        "Emily R. Johnson"
+      ]
+    },
+    "doi": "https://www.doi.org/",
+    "publishedArticle": 45
+  },
+  {
+    "author": "Alex",
+    "title": "Exploring Creative Possibilities in the Digital Era",
+    "coAuthor": [
+      "Jeremias"
+    ],
+    "citeCount": 852,
+    "references": {
+      "Neural Network Approaches to Predicting Protein Folding Pathways: A Comparative Analysis": [
+        "William K. Taylor",
+        "Sophia L. Martinez",
+        "John A. Smith",
+        "Emily R. Johnson"
+      ]
+    },
+    "doi": "https://www.doi.org/",
+    "publishedArticle": 10
+  },
+  {
+    "author": "Alex",
+    "title": "Exploring Creative Possibilities in the Digital Era",
+    "coAuthor": [
+      "Jeremias"
+    ],
+    "citeCount": 852,
+    "references": {
+      "Neural Network Approaches to Predicting Protein Folding Pathways: A Comparative Analysis": [
+        "William K. Taylor",
+        "Sophia L. Martinez",
+        "John A. Smith",
+        "Emily R. Johnson"
+      ]
+    },
+    "doi": "https://www.doi.org/",
+    "publishedArticle": 10
+  },
+  {
+    "author": "Don",
+    "title": "Exploring Creative Possibilities in the Digital Era",
+    "coAuthor": [
+      "Pon"
+    ],
+    "citeCount": 852,
+    "references": {
+      "Neural Network Approaches to Predicting Protein Folding Pathways: A Comparative Analysis": [
+        "William K. Taylor",
+        "Sophia L. Martinez",
+        "John A. Smith",
+        "Emily R. Johnson"
+      ]
+    },
+    "doi": "https://www.doi.org/",
+    "publishedArticle": 5
+  },
+  {
+    "author": "Pon",
+    "title": "Exploring Creative Possibilities in the Digital Era",
+    "coAuthor": [
+      "Laou"
+    ],
+    "citeCount": 800,
+    "references": {
+      "Neural Network Approaches to Predicting Protein Folding Pathways: A Comparative Analysis": [
+        "William K. Taylor",
+        "Sophia L. Martinez",
+        "John A. Smith",
+        "Emily R. Johnson"
+      ]
+    },
+    "doi": "https://www.doi.org/",
+    "publishedArticle": 5
+  }
+]

@@ -1,0 +1,26 @@
+ol { padding-left: 100px; }
+li { 
+  color: #4F4F4F; 
+  padding-left: 15px;
+  margin-top: 24px;
+  position: relative;
+  font-size: 16px;
+  line-height: 15px;
+  
+  &:before {
+    content: '';
+    display: block;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    position: absolute;
+    top: -15px;
+    left: -35px;
+  }
+}
+
+ol.alternating-colors { 
+  li:nth-child(odd):before { border-color: #7c795d; }
+  li:nth-child(even):before { border-color: #acacac; }
+}

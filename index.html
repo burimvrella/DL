@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Metadata-based Document Exploration Network</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css"> 
+  <link rel="stylesheet" href="slider.css">
+  <link rel="stylesheet" href="list.css">
+  
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="https://d3js.org/d3.v6.js"></script>
+
+</head>
+
+<body onload="loadSearchData()">
+
+  <div class="grid-container">
+
+    <div class="header">
+      <h1>Metadata-based Document Exploration Network</h1>
+    </div>
+
+    <div  class="settings">
+      <h1>Settings</h1>
+
+      <h2>Select Network</h2>
+
+      <form>
+        <input type="radio" id="authorNetwork" name="network" value="author" checked="true">
+        <label for="authorNetwork">Author Network</label> 
+        <input type="radio" id="citeationNetwork" name="network" value="citeation">
+        <label for="citeationNetwork">Citation Network</label>
+      </form> 
+
+      <h2>Search Authors</h2>
+
+      <div class="search">
+        <input id="searchBar" autocomplete="off" onkeyup="authorSearch()" type="text" name="search" placeholder="Search for the Author">
+        <div id="authorList" onclick="changeAuthorValue()"></div>
+      </div>
+      
+      <h2>Select Citation Range</h2>
+      
+      <div class="range">
+        <div class="range-slider">
+          <span class="range-selected"></span>
+        </div>
+        <div class="range-input">
+          <input type="range" class="min" min="0" max="1000" value="0" step="5" onchange="returnValue()">
+          <input type="range" class="max" min="0" max="1000" value="1000" step="5" onchange="returnValue()"">
+        </div>
+        <div class="range-price">      
+          <label for="min">Min</label>
+          <input type="text" name="min" value="300" disabled>
+            
+          <label for="max">Max</label>
+          <input type="text" name="max" value="700" disabled>      
+        </div>
+      </div>  
+
+      <h2>Search Papers</h2>
+      <div class="searchPaper">
+        <input id="searchBarPaper" autocomplete="off" onkeyup="paperSearch()" type="text" name="search" placeholder="Search for the Paper Title">
+        <div id="paperList" onclick="changePaperValue()"></div>
+      </div>
+
+
+      <div class="buttons">
+        <button id="draw" onclick="GenerateNetwork()">Draw</button>
+        <button id="reDraw" onclick="redraw()" hidden>Draw</button>
+      </div>
+
+    </div>
+
+    <div class="network">
+      <h1>Network</h1>
+      <svg id="networkContainer"></svg>
+    </div>  
+
+    <div class="info">
+      <h1>Info</h1>
+      <ol id="writtenPapers"> 
+      </ol>
+    </div>
+  </div>
+  
+  <script src="backend.js"></script>
+</body>
+</html>

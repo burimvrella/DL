@@ -1,0 +1,191 @@
+.header { grid-area: Header; }
+.settings { grid-area: Settings; }
+.network { grid-area: Network; }
+.info { grid-area: Info; }
+
+body {
+background-color: #ebeae9;
+}
+
+/*Layout Design*/
+.grid-container{
+  display: grid;
+  grid-template-areas:
+    'Header Header Header Header Header '
+    'Settings Network Network Network Network '
+    'Settings Info Info Info Info ';
+  gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  border-style: solid;
+  border-width: 2px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.grid-container h1 {
+  text-align: center;
+  color: #7c795d; 
+  font-family: 'Bitter', serif; 
+  font-size: 45px; 
+  font-weight: normal; 
+  line-height: 48px; 
+  margin: auto;
+}
+
+.grid-container h2 { 
+  text-align: left;
+  color: #7c795d; 
+  font-family: 'system-ui', sans-serif; 
+  font-size: 28px; 
+  font-weight: 400; 
+  line-height: 32px; 
+  margin: 0 0 25px;
+  margin-left: 5px; 
+}
+
+
+/*Header Section Design*/
+.grid-container .header {
+  text-align: center;
+  background-color: #ebeae9;
+  border-style: none;
+  padding: 1px 0;
+  font-size: 15px;
+}
+
+/*Network Section Design*/
+.grid-container .network {
+  text-align: center;
+  border-radius: 10px;
+  padding: 1px 0;
+  font-size: 15px;
+}
+
+/*Info Section Design*/
+.grid-container .info {
+  border-radius: 10px;
+  padding: 1px 0;
+  font-size: 15px;
+}
+
+/* Settings Design */
+.grid-container .settings {
+  border-radius: 10px;
+  padding: 1px 0;
+  font-size: 15px;
+}
+
+/* Settings Button Design */
+.grid-container .settings .buttons {
+  text-align: center;
+}
+
+.grid-container .settings .buttons #draw{
+  margin-right: 50px;
+}
+
+.grid-container .settings button {
+  font-size: 15px;
+  font-weight: bold;
+  background-color:  #ebeae9;
+  color: #7c795d; 
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: #7c795d; 
+  min-height: 40px; 
+  min-width: 400px;
+  margin-bottom: 5px;
+}
+
+/* Settings Radio Button Design */
+.grid-container .settings form {
+  font-size: 20px;
+  color: #7c795d; 
+  margin-bottom: 20px;
+}
+
+/* Settings Search Bar Design */
+.grid-container .settings .search {
+  padding: 10px 5%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+  font-size: 19px;
+  color: #7c795d;
+}
+
+.grid-container .settings .search #searchBar {
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.grid-container .settings .search #searchBar input[type=text] {
+  -webkit-transition: width 0.15s ease-in-out;
+  transition: width 0.15s ease-in-out;
+}
+
+
+.grid-container .settings .search #authorList {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  display: none;
+}
+
+.grid-container .settings .search .listItem {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  padding: 5px 20px;
+  color: #7c795d;
+}
+
+.grid-container .settings .search .listItem:hover {
+  background-color: #ebeae9;
+}
+
+
+
+
+.grid-container .settings .searchPaper {
+  padding: 10px 5%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+  font-size: 19px;
+  color: #7c795d;
+}
+
+.grid-container .settings .searchPaper #searchBarPaper {
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.grid-container .settings .searchPaper #searchBarPaper input[type=text] {
+  -webkit-transition: width 0.15s ease-in-out;
+  transition: width 0.15s ease-in-out;
+}
+
+.grid-container .settings .searchPaper #paperList {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  display: none;
+}
+
+.grid-container .settings .searchPaper .listItem {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  padding: 5px 20px;
+  color: #7c795d;
+}
+
+.grid-container .settings .searchPaper .listItem:hover {
+  background-color: #ebeae9;
+}
+
